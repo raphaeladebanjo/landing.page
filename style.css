@@ -71,7 +71,7 @@ body{
     text-align-last: center;
 }
 .logo{
-    margin-top: 2p%;
+    margin-top: 2%;
     
 }
 .box{
@@ -141,8 +141,9 @@ header .desc .desc_item{
    background-color:rgba(0, 90, 112, 1);
    border-radius: 5px;
    margin-left: 3%;
-  
+  margin-right: 3%;
 }
+
 
 header .desc .desc_item h2{
   color: #ffffff;
@@ -246,4 +247,20 @@ padding-bottom: 15%;
     
         }
     }
+  /* Media Queries */ 
+@media screen and (min-width: 768px) {
+    .box {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .box_item {
+        width: 40%;
+        }
+    }
     
+    @media screen and (min-width: 1024px) {
+        .desc_item {
+         width: 30%;
+    
+        }  
