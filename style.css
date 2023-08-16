@@ -228,3 +228,22 @@ padding-bottom: 15%;
   .wrapup{
 
   }
+  /* Media Queries */ 
+@media screen and (min-width: 768px) {
+    .desc {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .desc_item {
+        width: 40%;
+        }
+    }
+    
+    @media screen and (min-width: 1024px) {
+        .desc_item {
+         width: 30%;
+    
+        }
+    }
+    
